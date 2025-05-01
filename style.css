@@ -49,7 +49,10 @@ p{
 }
 #header .header{
     min-height: 8vh;
-    background-color: #3FEEE6;
+    background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:1, y2:1, 
+    stop:0.09 rgba(232, 65, 75, 255), 
+    stop:0.78 rgba(47, 87, 149, 255));
+
 }
 #header .nav-bar{
     display: flex;
